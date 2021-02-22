@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Kobers</string>
     <string name="sign_up"><u>Sign Up</u></string>
+    <string name="login"><u>Login?</u></string>
+    <string name="cumabg">cumabg</string>
+    <string name="selamatbergabung">SELAMAT\nBERGABUNG</string>
+    <string name="nama_toko">Nama Toko</string>
+    <string name="no_telpon">No Telpon</string>
+    <string name="password">Password</string>
+    <string name="cumabutton">cumabutton</string>
 </resources>
