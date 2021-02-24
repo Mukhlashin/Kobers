@@ -16,4 +16,16 @@
     <string name="stok">Stok</string>
     <string name="selamat_datang">SELAMAT DATANG</string>
     <string name="login_up">LOGIN</string>
+    <string name="catat_pembelian">Catat Pembelian</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="kuantitas">Kuantitas</string>
+    <string name="total_harga">Total harga</string>
+    <string name="rp_500000">Rp. 500000</string>
+    <string name="simpan">Simpan</string>
+    <string name="_19_02_2021">19/02/2021</string>
+    <string name="kain_gaun_motif_bunga">Kain Gaun Motif Bunga</string>
+    <string name="_3_meter_persegi">3 Meter Persegi</string>
+    <string name="rp_200_000">Rp 200.000</string>
+    <string name="riwayat_pembelian">Riwayat Pembelian</string>
+    <string name="cari_riwayat_pembelian">Cari Riwayat Pembelian</string>
 </resources>
