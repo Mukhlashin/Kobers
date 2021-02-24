@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1064629274058",
+    "firebase_url": "https://kobers-900a8-default-rtdb.firebaseio.com",
+    "project_id": "kobers-900a8",
+    "storage_bucket": "kobers-900a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064629274058:android:7b2a3aaad6b5bedcf33b33",
+        "android_client_info": {
+          "package_name": "com.example.kobers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064629274058-baar0gqd8e1tbnmd7opdvg5rp4se9ph9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGwaZFco57Dzl1InidArVVwCwSjKixgfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064629274058-baar0gqd8e1tbnmd7opdvg5rp4se9ph9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

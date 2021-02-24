@@ -1,4 +1,4 @@
-package com.example.kobers.activities.login
+package com.example.kobers.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +12,7 @@ import android.widget.Toast
 import androidx.core.content.res.ResourcesCompat
 import com.example.kobers.R
 import com.example.kobers.activities.HomeActivity
-import com.example.kobers.activities.register.RegisterActivity
+import com.example.kobers.activities.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
