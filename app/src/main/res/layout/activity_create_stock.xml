@@ -17,7 +17,8 @@
         android:src="@drawable/ic_arrow"
         app:layout_constraintEnd_toStartOf="@id/btn_back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/cumabutton" />
 
     <TextView
         android:id="@+id/txt_inputstock"
@@ -27,9 +28,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/cabinbold"
-        android:text="Masukkan barang"
+        android:text="@string/masukkan_barang"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@id/btn_back"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +42,8 @@
         android:src="@drawable/img_default"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_inputstock" />
+        app:layout_constraintTop_toBottomOf="@id/txt_inputstock"
+        android:contentDescription="@string/cumabutton" />
 
     <TextView
         android:id="@+id/txt_fotobarang"
@@ -49,9 +51,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
         android:fontFamily="@font/cabinregular"
-        android:text="Foto Barang"
+        android:text="@string/foto_barang"
         android:textColor="#747474"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/img_barang" />
@@ -62,11 +64,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/cabinregular"
-        android:hint="Nama Barang"
+        android:hint="@string/nama_barang"
         android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_fotobarang" />
+        app:layout_constraintTop_toBottomOf="@id/txt_fotobarang"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/kuantitas"
@@ -74,11 +77,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:fontFamily="@font/cabinregular"
-        android:hint="Kuantitas"
+        android:hint="@string/kuantitas"
         android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/nama_barang" />
+        app:layout_constraintTop_toBottomOf="@id/nama_barang"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/desk_barang"
@@ -86,11 +90,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/cabinregular"
-        android:hint="Deskripsi Barang"
+        android:hint="@string/deskripsi_barang"
         android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/kuantitas" />
+        app:layout_constraintTop_toBottomOf="@id/kuantitas"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/harga"
@@ -98,11 +103,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/cabinregular"
-        android:hint="Harga"
+        android:hint="@string/harga"
         android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/desk_barang" />
+        app:layout_constraintTop_toBottomOf="@id/desk_barang"
+        android:inputType="text" />
 
     <Button
         android:layout_width="280dp"
@@ -111,11 +117,10 @@
         android:layout_marginBottom="135dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/cabinbold"
-        android:shadowRadius="8dp"
         android:text="@string/masukkan_stok"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

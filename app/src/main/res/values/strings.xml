@@ -3,7 +3,7 @@
     <string name="sign_up"><u>Sign Up</u></string>
     <string name="login"><u>Login</u></string>
     <string name="cumabg">cumabg</string>
-    <string name="selamatbergabung">SELAMAT BERGABUNG</string>
+    <string name="selamatbergabung">SELAMAT\nBERGABUNG</string>
     <string name="nama_toko">Nama Toko</string>
     <string name="no_telpon">No Telpon</string>
     <string name="password">Password</string>
@@ -14,11 +14,9 @@
     <string name="masukkan_stok">Masukkan Stok</string>
     <string name="log_out">Log Out</string>
     <string name="stok">Stok</string>
-    <string name="selamat_datang">SELAMAT DATANG</string>
+    <string name="selamat_datang">SELAMAT\nDATANG</string>
     <string name="login_up">LOGIN</string>
     <string name="catat_pembelian">Catat Pembelian</string>
-    <string name="nama_barang">Nama Barang</string>
-    <string name="kuantitas">Kuantitas</string>
     <string name="total_harga">Total harga</string>
     <string name="rp_500000">Rp. 500000</string>
     <string name="simpan">Simpan</string>
@@ -28,4 +26,11 @@
     <string name="rp_200_000">Rp 200.000</string>
     <string name="riwayat_pembelian">Riwayat Pembelian</string>
     <string name="cari_riwayat_pembelian">Cari Riwayat Pembelian</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="masukkan_barang">Masukkan barang</string>
+    <string name="foto_barang">Foto Barang</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="kuantitas">Kuantitas</string>
+    <string name="deskripsi_barang">Deskripsi Barang</string>
+    <string name="harga">Harga</string>
 </resources>
