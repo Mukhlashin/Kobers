@@ -9,6 +9,15 @@ data class User(
     val password: String? = ""
 )
 
+data class Stock(
+    val description: String? = "",
+    val name: String? = "",
+    val photo: String? = null,
+    val prize: String? = "",
+    val quantity: Int?,
+    val userID: Int?
+)
+
 //data class Contact
 //    ( val name: String?,
 //      val phone: String?
